@@ -1,0 +1,13 @@
+buy_price = float(input("buy price per share : "))
+sell_price = float(input("sale price per shares: "))
+shares = int(input("numbers of stocks: "))
+
+profit_loss = (sell_price - buy_price) * shares
+
+if profit_loss > 0:
+    print(f"dollars{profit_loss}your benefits")
+elif profit_loss < 0:
+    print(f"dollars{profit_loss}your loss")
+else:
+    print("nothing")
+#hope you enjoy that
