@@ -1,0 +1,10 @@
+from sympy import symbols, Eq, solve
+
+x = symbols('x')  
+
+eq1 = Eq(x**2 + 2*x + 3, 0)  
+
+solution = solve(eq1, x)  
+
+print(solution)  
+#this is day 1 in university 😅😎
