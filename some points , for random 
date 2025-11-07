@@ -7,3 +7,19 @@ import random as rd
 
 nums = rd.sample(range(1, 51), 3)
 print(nums)
+#continue 
+import random as rd
+
+nums = rd.sample(range(1, 51), 3)
+average = sum(nums) / len(nums)
+
+print("اعداد:", nums)
+print("میانگین:", average)
+#without repeat 
+import random as rd
+
+nums = [rd.randint(1, 50) for _ in range(3)]
+average = sum(nums) / len(nums)
+
+print("اعداد:", nums)
+print("میانگین:", average)
