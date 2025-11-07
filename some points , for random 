@@ -1,0 +1,9 @@
+import random as rd
+
+x = rd.randint(1, 50)
+print(x)
+#this will gives you a random number for 3 random number look down 
+import random as rd
+
+nums = rd.sample(range(1, 51), 3)
+print(nums)
