@@ -1,0 +1,7 @@
+age = 18
+is_adult = age >= 18  # True because 18 >= 18
+
+if is_adult:
+    print("You can vote!")
+else:
+    print("You are too young.")
