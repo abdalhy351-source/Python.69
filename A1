@@ -1,0 +1,6 @@
+def myFunc(score1, score2):
+    print('YOUR MATH SCORE IS ' + str(score1))
+    print('YOUR ENGLISH SCORE IS ' + str(score2))
+
+
+myFunc(19, 18)
