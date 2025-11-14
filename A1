@@ -27,3 +27,11 @@ def myFunc(score1,score2,score3):
        print('your score is '  + str(score2))
        
 myFunc(score3=13,score2=21,score1=21)
+
+#36
+
+def myFunc(score =18):
+       print('your score is '  + str(score))
+       
+myFunc()
+     
