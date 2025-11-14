@@ -12,3 +12,11 @@ def myFunc(score1, score2 ):
     
 average = myFunc(17, 18 )
 print(average)
+
+#again🤣😅
+
+
+def myFunc(*score):
+       print('your score is ' + str(score[1]))
+      
+myFunc(17,12,10)
