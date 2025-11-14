@@ -4,3 +4,11 @@ def myFunc(score1, score2):
 
 
 myFunc(19, 18)
+
+
+#continue
+def myFunc(score1, score2 ):
+    return(score1+ score2)/2
+    
+average = myFunc(17, 18 )
+print(average)
