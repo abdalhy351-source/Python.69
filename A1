@@ -34,4 +34,12 @@ def myFunc(score =18):
        print('your score is '  + str(score))
        
 myFunc()
+   
+pass
+
+def myFunc(scores):
+       for item in scores:
+             print(item)
+            
+myFunc([15,17,57,65,86])
      
