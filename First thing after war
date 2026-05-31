@@ -1,0 +1,9 @@
+def myfunk(num1, num2):
+    return num1 + num2
+
+num1 = float(input("ENTER THE FIRST NUMBER FOR ADDITION: "))
+num2 = float(input("ENTER THE SECOND NUMBER FOR ADDITION: "))
+
+sum_result = myfunk(num1, num2)
+
+print(f"sum: {num1} + {num2} = {sum_result}")
