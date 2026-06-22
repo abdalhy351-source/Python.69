@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+products = ['A' , 'B','C','D']
+sales = [40, 20, 28, 76]
+
+plt.bar(products,sales)
+plt.show()
+#due of war ,my code writing made a big gap but I will resume .
+import matplotlib.pyplot as plt
+ 
+X = [10, 20, 40, 76]
+Y = [5, 10, 20, 38]
+ 
+plt.figure(figsize=(8, 10))
+plt.plot(X, Y)
+
+plt.show()
